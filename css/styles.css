@@ -1,0 +1,222 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #f3f3f3;
+    background-color: #191919;
+}
+.top-header {
+    background-color: #000;
+}
+.top-header:after {
+    background: #ffffff;
+    background: linear-gradient(to right, #be9553, #f4eab7);
+    content: "";
+    display: block;
+    height: 3px;
+    width: 100%;    
+}
+.top-header .title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #fdf5c4;
+}
+.landing-info {
+    border-top: 8px solid #fafafa;
+    background: url(../img/shine-1.png) right center no-repeat,
+                url(../img/hdr_gift.png) left center no-repeat,
+                url(../img/line.jpg) left bottom repeat-x;
+}
+.landing-info h1 {
+    font-size: 1.875rem;
+    color: #fdf5c4;
+
+}
+.landing-info p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+.description-form .form-control {
+    height: 50px;
+    width: 286px;
+}
+.description-form .btn-submit {
+    display: inline-block;
+    width: 286px;
+    height: 52px;
+    background: url(../img/button-2.png) center no-repeat;
+    border: none;
+}
+
+a[href^="tel:"],
+a[href^="mailto:"] {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #fdf5c4;    
+}
+a[href^="tel:"]:before,
+a[href^="mailto:"]:before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: .5rem;    
+}
+a[href^="tel:"]:before {
+    content: url(../img/phone.png);
+}
+a[href^="mailto:"]:before {
+    content: url(../img/mail.png);    
+}
+
+
+#main {
+    background-color: #000;
+}
+#main h2 {
+    text-align: center;
+    font-size: 1.875rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.advantage-block div[class*="col-"] {
+    text-align: center;
+}
+.advantage-block div[class*="col-"] img {
+    margin-bottom: 1rem;
+}
+
+.card {
+    position: relative;
+    border: none;
+    min-height: 300px;
+    border-radius: .35rem;
+    text-align: center;
+}
+.card hr {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    border: 0;
+    width: 50px;
+}
+.card-wrapper {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    right: 3px;
+    background-color: #000;
+    border-radius: .25rem;
+    padding: 2rem;
+
+}
+.card .button {
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    height: 53px;
+}
+.card .button-top {
+    position: absolute;
+    top: -15px;
+    width: 100%;
+    height: 32px;
+    background: url(../img/best.png) center no-repeat;
+}
+.card .button1 {
+    background: url(../img/button1.png) center no-repeat;
+}
+.card .button2 {
+    background: url(../img/button2.png) center no-repeat;
+}
+.card .button3 {
+    background: url(../img/button3.png) center no-repeat;
+}
+
+.silver {
+    background-image: linear-gradient(#8b8b8b, #e3e3e3);
+    color: #b3b3b3;
+}
+.silver hr {
+    border-top: 1px solid #b3b3b3;
+}
+.gold {
+    background-image: linear-gradient(#be9553, #f4eab7);
+    color: #f9f5c6;
+}
+.gold hr {
+    border-top: 1px solid #f9f5c6;
+}
+.platinum {
+    background-image: linear-gradient(#c9c9c9, #c6c6c6);
+    color: #d1d1d1;
+}
+.platinum hr {
+    border-top: 1px solid #d1d1d1;
+}
+
+#footer {
+    background: url(../img/shine-2.png) right bottom no-repeat,
+                url(../img/shine-2_1.png) left bottom no-repeat;
+}
+#footer h2 {
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+}
+#footer p {
+    font-size: 1.125rem;
+    color: #fff;
+}
+#footer .description-form .form-control {
+    width: 288px;
+    margin: 0 auto;
+}
+
+#footer .copyright {
+    color: #fff;
+} 
+.modal-header {
+    border-bottom: 1px solid #f4eab7;  
+}
+.modal-header .close {
+    color: #f4eab7;
+}
+.modal-content {
+    background-color: #191919;
+    border: 2px solid #f4eab7;
+}
+.modal-content .description-form *:not(.form-action) {
+    display: inline-block;
+}
+
+/*
+####################################################
+M E D I A  Q U E R I E S
+####################################################
+*/
+@media (min-width: 576px) {
+
+}
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (min-width: 768px) {
+
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+/*
+::::::::::::::::::::::::::::::::::::::::::::::::::::
+Custom media queries
+*/
+ 
+@media (max-width: 575px) { 
+
+}
+@media (max-width: 767px) { 
+
+}
+
+/* other css */

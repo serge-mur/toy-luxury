@@ -1,0 +1,6 @@
+2019-03-13 12:15:19;test@mail.com;
+2019-03-13 13:28:25;test2@mail.com;
+2019-03-13 14:03:35;test@mail.com;
+2019-03-13 14:05:52;serge-mur@yandex.ru;;
+2019-03-13 14:07:07;vasya@mail.com;none;
+2019-03-13 14:09:17;ivanov@mail.com;platinum;
