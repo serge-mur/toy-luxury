@@ -14,7 +14,7 @@ if ($_POST) {
 
         mail(
         "servicetoy@toy.ru,s.murashko@toy.ru", //<== шлем сюды
-        "Заявка с сайта",
+        "Заявка с сайта vip.toy.ru",
         "E-mail: ".$email.PHP_EOL.
         "Тариф: ".$tarif.PHP_EOL.
         "From: servicetoy@toy.ru \r\n");   
